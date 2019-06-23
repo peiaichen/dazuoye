@@ -1,0 +1,324 @@
+/*
+* @Author: lenovo
+* @Date:   2019-06-19 19:10:00
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-06-23 20:16:54
+*/
+*{
+	margin:0;
+	padding:0;
+}
+li,ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.header-wrapper{
+	height:188px;
+	background-color:#ffffff;
+}
+.header{
+	width:1200px;
+	height:188px;
+	margin:0 auto;
+}
+.he{
+	width:1200px;
+	height:40px;
+}
+.he span{
+	font-size:13px;
+	color:#0d0408;
+}
+.he span a{
+	font-size:15px;
+	color:#0d0408;
+}
+.top{
+	width:1200px;
+	height:88px;
+}
+.logo{
+	float:left;
+}
+.sousuo{
+	float:left;
+	margin:-40px 188px 0 408px;
+	border:2px solid #393942;
+}
+.sousuo form input:nth-child(1){
+	width:530px;
+	height:45px;
+}
+.sousuo form input:nth-child(2){
+	width:60px;
+	height:45px;
+}
+.ri{
+	float:right;
+	margin-top:-40px;
+}
+.nav{
+	width:1200px;
+	height:60px;
+}
+.nav ul{
+	list-style:none;
+	display:block;
+}
+.nav ul li{
+	float:left;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+}
+.a{
+	margin-left:10px;
+	margin-right:8px;
+}
+.b{
+	margin-right:42px;
+}
+.c{
+	margin-right:60px;
+}
+.d{
+	margin-right:60px;
+}
+.e{
+	margin-right:60px;
+}
+.f{
+	margin-right:60px;
+}
+.g{
+	margin-right:60px;
+}
+.h{
+	margin-right:60px;
+}
+.i{
+	margin-right:60px;
+}
+.j{
+	margin-right:60px;
+}
+.k{
+	margin-right:28px;
+}
+a:visited{
+	color:#3aa747;
+}
+.main-wrap{
+	height:1010px;
+	background-color:#ffffff;
+}
+.main{
+	width:1200px;
+	height:1010px;
+	margin:0 auto;
+}
+.crumb{
+	line-height:30px;
+}
+.da{
+	font-size:18px;
+	color:#000000;
+	margin-left:26px;
+}
+.xiao{
+	font-size:14px;
+	color:#5c5a5a;
+}
+.right{
+	float:right;
+	font-size:14px;
+	color:#000000;
+}
+.list{
+	width:1200px;
+	height:135px;
+	margin:0 auto;
+}
+.list ul li{
+	list-style:none;
+}
+.aa{
+	width:1200px;
+	height:45px;
+	border:1px solid #cccccc;
+	line-height:45px;
+	text-align:center;
+}
+.aa li{
+	width:100px;
+	height:45px;
+	float:left;
+}
+.aa li:first-child{
+	background-color:#e5e5e5;
+}
+.aa li:hover{
+	color:#3aa747;
+}
+.bb{
+	width:1200px;
+	height:45px;
+	border:1px solid #cccccc;
+	line-height:45px;
+	text-align:center;
+}
+.bb li{
+	width:100px;
+	height:45px;
+	float:left;
+}
+.bb li:first-child{
+	background-color:#e5e5e5;
+}
+.bb li:hover{
+	color:#3aa747;
+}
+.cc{
+	width:1200px;
+	height:45px;
+	border:1px solid #cccccc;
+	line-height:45px;
+	text-align:center;
+}
+.cc li{
+	width:100px;
+	height:45px;
+	float:left;
+}
+.cc li:first-child{
+	background-color:#e5e5e5;
+}
+.cc li:last-child{
+	font-size:14px;
+	float:right;
+}
+.cc li:hover{
+	color:#3aa747;
+}
+.cha{
+	width:1200px;
+	margin-top:60px;
+}
+.nan{
+	height:760px;
+	margin-left:10px;
+	margin-right:7px;
+}
+.nan li{
+	width:272px;
+	height:290px;
+	position:relative;
+	float:left;
+	text-align:center;
+	margin:0 20px 20px 0;
+	border:1px solid #888888;
+}
+.xia{
+	width:100%;
+	height:50px;
+	background-color:#4c4c4c;
+	font-size:15px;
+	color:#ffffff;
+	position:absolute;
+	bottom:0;
+}
+.nan li:hover .xia{
+	display:none;
+}
+.hide{
+	width:272px;
+	height:290px;
+	background-color:#494946;
+	display:none;
+	opacity:0.8;
+	position:absolute;
+	bottom:0;
+	color:#ffffff;
+}
+.nan li:hover .hide{
+	display:block;
+}
+.hide p{
+	text-align:center;
+}
+.hide p:first-child{
+	margin-top:123px;
+	margin-bottom:28px;
+}
+.foot{
+	height:103px;
+	background-color:#f5f5f5;
+}
+.foot-help{
+	width:1200px;
+	height:103px;
+	margin:0 auto;
+}
+.foot-help li{
+	width:286px;
+	height:60px;
+	float:left;
+	border-right:2px solid #e0e0e0;
+	margin-top:21px;
+}
+.foot-help li:last-child{
+	border:0px;
+}
+.foot-help img{
+	float:left;
+	margin-left:35px;
+	margin-right:24px;
+}
+.to{
+	font-size:19px;
+	color:#666666;
+	margin-bottom:10px;
+}
+.footer{
+	height:98px;
+	background-color:#323232;
+}
+.footer-help{
+	width:1200px;
+	height:98px;
+	margin:0 auto;
+	text-align:center;
+}
+.footer-help p{
+	font-size:14px;
+	color:#ffffff;
+}
+.footer-help p a{
+	font-size:14px;
+	color:#ffffff;
+	margin-left:5px;
+	margin-right:5px;
+}
+.footer-help p:first-child{
+	margin-bottom:25px;
+}
+.ce{
+	width:82px;
+	height:592px;
+	background-color:#030b09;
+	position:fixed;
+	top:190px;
+	right:0px;
+}
+.ce li{
+	width:70px;
+	height:120px;
+	border-bottom:2px solid #595e5d;
+	margin-left:5px;
+}
+.ce li img{
+	margin-left:20px;
+	margin-top:50px;
+}
